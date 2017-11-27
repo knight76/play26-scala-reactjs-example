@@ -1,0 +1,25 @@
+@this(webJarUtil: org.webjars.play.WebJarsUtil)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        @Html(webJarUtil.css("bootstrap.min.css"))
+        <link rel='stylesheet' href='@routes.Assets.at("stylesheets/index.css")'>
+
+        @Html(webJarUtil.script("react.js"))
+        @Html(webJarUtil.script("react-dom.js"))
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">검색화면</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="root"></div>
+        <script type='text/javascript' src='@routes.Assets.at("javascripts/reactTest.js")'></script>
+
+    </body>
+</html>
