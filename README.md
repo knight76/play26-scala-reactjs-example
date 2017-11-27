@@ -6,3 +6,7 @@ frontend
 Backend
 * Play! framework 2.6.2(Scala)
 
+Run
+* sbt compile
+* sbt run
+* curl http://localhost:9000
