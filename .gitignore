@@ -1,0 +1,23 @@
+*.class
+*.log
+*.swp
+*.iml
+
+ sbt specific
+.cache
+.history
+.lib/
+.idea/
+.idea_modules/
+logs/
+dist/*
+target/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# eclipse specific
+.settings
+.project
+.classpath

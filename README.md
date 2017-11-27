@@ -1,2 +1,8 @@
 # play26-scala-reactjs-example
-play2.6 with reactjs 15.6.1
+
+frontend
+* Reactjs(15.6.1)
+
+Backend
+* Play! framework 2.6.2(Scala)
+
